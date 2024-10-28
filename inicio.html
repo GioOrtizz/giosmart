@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio SmartShop - Reparación de celulares</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .contact-info {
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            margin: 0 15px;
+            display: inline-block;
+        }
+        .contact-info a i {
+            margin-right: 5px;
+        }
+        section {
+            padding: 2rem 20px;
+            text-align: center;
+        }
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .form-container h2 {
+            color: #007bff;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        input:focus, select:focus, textarea:focus {
+            border-color: #007bff;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.2s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .service-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .service-card h3 {
+            color: #007bff;
+            font-size: 1.4rem;
+            margin-top: 1rem;
+        }
+        .service-card p {
+            color: #555;
+        }
+        .guarantee-section {
+            background-color: #e8eaf6;
+            padding: 40px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .guarantee-section h2 {
+            color: #007bff;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .guarantee-section p {
+            color: #555;
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Servicio SmartShop</h1>
+    <p>Reparación profesional de equipos celulares</p>
+    <div class="contact-info">
+        <a href="https://www.instagram.com/smart_shop.py/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram: SmartShop.py
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=%2B595992501354&type=phone_number&app_absent=0&fbclid=PAZXh0bgNhZW0CMTEAAabFgt71BwjKiUdHfwAmgW395cUL5lRDwRot8Vk2GIP8J9lWgGXHg1n4OC4_aem_wAOzPgo6W9xXgM0PqYo-yg" target="_blank">
+            <i class="fab fa-whatsapp"></i> Contacto: +595 992 501 354
+        </a>
+    </div>
+</header>
+
+<section>
+    <h2>Nuestros Servicios</h2>
+    <div class="services">
+        <div class="service-card">
+            <img src="https://i0.wp.com/ensedeciencia.com/wp-content/uploads/2023/04/Copia-de-C-EdCiencia-P-2023-04-25T120204.137.jpg?resize=1024%2C577&ssl=1" alt="Reparación de Pantallas">
+            <h3>Reparación de Pantallas</h3>
+            <p>Reparamos pantallas rotas o dañadas de todos los modelos de celulares.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://tvazteca.brightspotcdn.com/dims4/default/2fef867/2147483647/strip/true/crop/1280x728+0+0/resize/992x565!/format/jpg/quality/90/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2Fad%2F51%2F58e83fa6422ba82f73ab3f685d9b%2Freparacion-celulares-de-la-bateria.jpg" alt="Cambio de Baterías">
+            <h3>Cambio de Baterías</h3>
+            <p>Ofrecemos cambio de baterías para que tu dispositivo vuelva a funcionar como nuevo.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://st3.depositphotos.com/4249115/14939/i/450/depositphotos_149395962-stock-photo-repairing-damaged-smart-phone-in.jpg" alt="Reparación de Cámaras">
+            <h3>Reparación de Cámaras</h3>
+            <p>Reparamos cámaras frontales y traseras dañadas o con mal funcionamiento.</p>
+        </div>
+    </div>
+</section>
+
+<section class="guarantee-section">
+    <h2>Garantía en Reparaciones</h2>
+    <p>Todas nuestras reparaciones cuentan con una garantía de 6 meses. Si presentas el mismo problema en ese periodo, lo resolveremos sin costo adicional. Nuestro equipo de técnicos certificados se asegura de que tu dispositivo quede como nuevo.</p>
+</section>
+
+<section class="form-container" id="loginRegisterSection">
+    <h2>Iniciar Sesión o Registrarse</h2>
+    <form id="loginForm">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="Correo electrónico" required><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" placeholder="Contraseña" required><br>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+    <p id="registerLink" style="color:#007bff; cursor:pointer;">¿No tienes cuenta? Regístrate aquí</p>
+</section>
+
+<section class="form-container" id="registerFormContainer" style="display:none;">
+    <h2>Registro de Usuario</h2>
+    <form id="registerForm" action="registrar_usuario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Correo electrónico" required><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" placeholder="Contraseña" required><br>
+        <button type="submit">Registrarse</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Servicio SmartShop. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    const loginForm = document.getElementById('loginForm');
+    const registerLink = document.getElementById('registerLink');
+    const registerFormContainer = document.getElementById('registerFormContainer');
+
+    loginForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        // Aquí puedes hacer validación de login, y luego redirigir a la página del formulario de reparación
+        window.location.href = 'formulario.html'; // Cambia esto por la ruta correcta
+    });
+
+    registerLink.addEventListener('click', function() {
+        registerFormContainer.style.display = 'block';
+        document.getElementById('loginRegisterSection').style.display = 'none';
+    });
+
+    const registerForm = document.getElementById("registerForm");
+      registerForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(registerForm);
+
+        fetch("registrar_usuario.php", {
+          method: "POST",
+          body: formData,
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              alert("Usuario registrado con éxito. Por favor, inicia sesión.");
+              registerFormContainer.style.display = "none";
+              document.getElementById("loginRegisterSection").style.display =
+                "block";
+            } else {
+              alert("Error al registrar: " + data.message);
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            alert("Hubo un problema con el registro. Inténtalo de nuevo.");
+          });
+      });
+</script>
+
+</body>
+</html>

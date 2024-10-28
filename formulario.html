@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparación de Celulares - Smart Shop Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0; /* Fondo gris claro */
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #007bff; /* Color azul */
+            color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .navbar a:hover {
+            color: #ffc107;
+        }
+
+        .navbar a i {
+            margin-right: 5px;
+        }
+
+        /* Contenedor de página con imágenes laterales */
+        .main-content {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+
+        /* Contenedores laterales para imágenes */
+        .side-images {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .side-images img {
+            width: 100%;
+            max-width: 180px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Contenedor principal */
+        .repair-container {
+            flex: 3;
+            margin: 20px;
+            padding: 25px;
+            background-color: #dcdcdc; /* Fondo gris para el contenedor principal */
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .repair-container h1 {
+            color: #007bff; /* Color azul para el título */
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .repair-container p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        /* Formulario */
+        .repair-form .form-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .repair-form label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .repair-form input,
+        .repair-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #333;
+            transition: border-color 0.3s;
+        }
+
+        .repair-form input:focus,
+        .repair-form textarea:focus {
+            border-color: #007bff; /* Color azul al enfocar */
+        }
+
+        .repair-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff; /* Color azul para el botón */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .repair-form button:hover {
+            background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+        }
+
+        /* Mensaje de información */
+        .info-message {
+            background-color: #e1ecf9;
+            border-left: 5px solid #007bff; /* Color azul para la barra lateral */
+            padding: 15px;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-message p {
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff; /* Color azul */
+            color: white;
+            font-size: 0.9rem;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="inicio.html" class="logo">Smart Shop Service</a>
+        <nav class="navbar">
+            <a href="https://www.instagram.com/smart_shop.py/" target="_blank">
+                <i class="fab fa-instagram"></i>Instagram
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B595992501354&type=phone_number&app_absent=0" target="_blank">
+                <i class="fab fa-whatsapp"></i>Contacto
+            </a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div class="side-images">
+            <img src="https://www.vpnresellers.com/hubfs/Iphone%20App.png" alt="LINEA de IPHONE">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiD-G4WTYmrjrtWmgljPPdPb9AfjmiWVskYg&s" alt="LINEA de SAMSUNG">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Huawei_logo_icon_170010.png" alt="LINEA de HUAWEI">
+            <img src="https://www.faq-mac.com/wp-content/uploads/2021/05/Xiaomi-Logo.png" alt="LINEA de XIAOMI">
+        </div>
+
+        <main class="repair-container">
+            <h1>Reparación de Celulares en Línea</h1>
+            <p>Inicia tu solicitud para la reparación de tu celular de manera fácil y rápida. ¡Nuestro equipo estará encantado de ayudarte!</p>
+
+            <form class="repair-form" action="procesar_reparacion.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Nombre Completo:</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre Completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Número de Teléfono:</label>
+                    <input type="text" id="phone" name="phone" placeholder="Número de Teléfono" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="brand">Marca del Celular:</label>
+                    <input type="text" id="brand" name="brand" placeholder="Marca del Celular" required>
+                </div>
+                <div class="form-group">
+                    <label for="model">Modelo del Celular:</label>
+                    <input type="text" id="model" name="model" placeholder="Modelo del Celular" required>
+                </div>
+                <div class="form-group">
+                    <label for="issue">Descripción del Problema:</label>
+                    <textarea id="issue" name="issue" placeholder="Describe el problema con tu celular" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="color">Descripción del Color del equipo:</label>
+                    <textarea id="color" name="color" placeholder="Descripción del Color del equipo" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="request_date">Fecha de Solicitud:</label>
+                    <input type="date" id="request_date" name="request_date" value="<?php echo date('Y-m-d'); ?>">
+                </div>
+
+                <div class="info-message">
+                    <p>La solicitud será enviada directamente a nuestro técnico, quien revisará tu caso. Después, podrás acercarte a la tienda para una evaluación detallada y recibir una cotización precisa. ¡Gracias por confiar en nosotros!</p>
+                </div>
+
+                <button type="submit">Enviar Solicitud</button>
+            </form>
+        </main>
+
+        <div class="side-images">
+            <img src="https://www.vpnresellers.com/hubfs/Iphone%20App.png" alt="LINEA de IPHONE">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiD-G4WTYmrjrtWmgljPPdPb9AfjmiWVskYg&s" alt="LINEA de SAMSUNG">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Huawei_logo_icon_170010.png" alt="LINEA de HUAWEI">
+            <img src="https://www.faq-mac.com/wp-content/uploads/2021/05/Xiaomi-Logo.png" alt="LINEA de XIAOMI">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Smart Shop Service. Todos los derechos reservados.
+    </footer>
+</body>
+
+</html>

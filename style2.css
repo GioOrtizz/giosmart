@@ -1,0 +1,15 @@
+.info-message {
+    background-color: #e8f4fd; /* Color de fondo suave */
+    border-left: 5px solid #007bff; /* Borde azul para destacar */
+    padding: 15px 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio debajo del mensaje */
+    font-size: 1rem; /* Tamaño de fuente */
+    color: #333; /* Color de texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.info-message p {
+    margin: 0; /* Remueve el margen del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
